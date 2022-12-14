@@ -1,9 +1,9 @@
 
-This tool reforms CCFOLIA log into a HTML codes that's easier to read in Tistory blog. It does not add character portrait.
+This project aims to reform CCFOLIA replay into a HTML code so it's more readable in a blog post.
 
 
 <Procedures>
-1. Copy and paste the replay you'll backup into a txt file. It assumes that it only contains texts from the main tab. Make sure the txt file and Log Editor are located in same folder.
+1. Copy and paste the replay into txt file. It assumes that it only contains texts from the main tab. Make sure the txt file and Log Editor are located in same folder.
 2. Open CLI and execute Log Editor by typing "python LOG_EDITOR.py".
 3. Skip an language option (anything other than "k" will display english) and enter the name of txt file (without .txt)
 4. Log Editor will read the file and print out every character's name. If you wish to assign colour for that character's text, enter 6-digit colour code (without #). Pressing enter or any other input that's not 6-digit will automatically assign grey colour.
